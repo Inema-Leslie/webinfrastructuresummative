@@ -1,0 +1,21 @@
+Deployment & Load Balancer Setup
+1. Deployed the Node.js app to both web servers (6450-web-01, 6450-web-02) using Git and PM2 for process management.
+
+2. Configured HAProxy on 6450-lb-01 to balance traffic between the two web servers using a roundrobin algorithm with health checks.
+
+3. Testing & Verification:
+
+Confirmed traffic distribution via HAProxy stats.
+
+Validated failover by stopping one server.
+
+Ensured sessions persisted correctly.
+
+Key Notes:
+
+Used port 80 for HAProxy and 3000 for backend servers.
+
+Enabled firewall rules for necessary ports.
+
+Monitored performance using curl and HAProxy’s built-in stats.
+
