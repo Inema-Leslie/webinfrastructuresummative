@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f3ff;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #9c4dff;
+}
+
+.controls {
+  margin: 25px 0;
+}
+
+select, input, button {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #9c4dff;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #7a2dcc;
+}
+
+#spinWheelBtn {
+  background-color: #ff6b6b;
+}
+
+#spinWheelBtn:hover {
+  background-color: #ff4757;
+}
+
+.outfit-display {
+  background: #f0e6ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.weather-info {
+  margin-top: 15px;
+  font-style: italic;
+  color: #666;
+}

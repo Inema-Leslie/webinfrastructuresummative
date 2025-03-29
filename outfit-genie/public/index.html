@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OutfitGenie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>✨ OutfitGenie ✨</h1>
+    <p>Get magical outfit suggestions based on your mood and weather!</p>
+    
+    <div class="controls">
+      <select id="moodSelect">
+        <option value="random">I'm feeling... (random)</option>
+        <option value="adventurous">Adventurous!</option>
+        <option value="lazy">Lazy...</option>
+        <option value="fancy">Fancy 💅</option>
+      </select>
+      
+      <input type="text" id="cityInput" placeholder="Enter city for weather">
+      
+      <button id="generateBtn">Generate Outfit</button>
+      <button id="spinWheelBtn">🎡 Spin the Wheel!</button>
+    </div>
+    
+    <div class="outfit-display" id="outfitDisplay">
+      <p>Your outfit will appear here!</p>
+    </div>
+    
+    <div class="weather-info" id="weatherInfo"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
